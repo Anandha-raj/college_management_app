@@ -5,9 +5,9 @@ function Header() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand">College Placement Management System</a>
-                <div class="d-flex">
-                    <button class="btn btn-outline-success" onClick={() => logout() } type="button">Logout</button>
+                <p className="navbar-brand">College Placement Management System</p>
+                <div className="d-flex">
+                    <button className="btn btn-outline-success" onClick={() => logout() } type="button">Logout</button>
                 </div>
             </div>
         </nav>
