@@ -22,14 +22,7 @@ function App() {
           <div className="container mt-5">
             <Routes>
               <Route path="/" element={<LoginForm />} />
-              <Route
-                path="/register-form"
-                element={
-                  <ProtectedRoute>
-                    <RegisterForm />
-                  </ProtectedRoute>
-                }
-              />
+              <Route path="/register-form" element={<RegisterForm />} />
               <Route
                 path="/applied-jobs/:studentID"
                 element={
